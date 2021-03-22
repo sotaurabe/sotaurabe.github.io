@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #f00;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(36, 241, 88);
+  position: fixed;
+  z-index: 1;
+}
+
+.header-logo {
+  float: left;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.header-logo h1 {
+  padding-left: 70px;
+}
+
+.header-menu {
+  font-size: 20px;
+  height: 80px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu {
+  padding-right: 30px;
+}
+
+.language {
+  padding-top: 80px;
+}
+
+#navi {
+  height: 40px;
+  background-color: #0b610b;
+}
+
+.navi-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button a {
+  border: 2px solid #333;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  padding: 9px 50px;
+}
+
+.button a:hover {
+  background-color: rgb(36, 241, 88);
+  color: #59b1eb;
+}
+
+#top {
+  background-image: url(../image/kyousitu.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+#top h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px 2px rgb(36, 241, 88);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.canpaign-box {
+  background-color: rgb(36, 241, 88, 0.5);
+  height: 103px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 15px;
+  border: groove 5px #0b3b17;
+}
+
+.canpaign-text {
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.canpaign-content {
+  border-bottom: ridge 5px #ffff00;
+  font-size: 35px;
+}
+
+#first-block {
+  background-image: url(../image/sora.jpeg);
+  background-size: cover;
+  height: 500px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+
+  font-family: serif;
+}
+
+.title {
+  font-family: serif;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.message {
+  margin-left: 50px;
+}
+.message-top {
+  margin-left: 20px;
+}
+
+.massage-name {
+  font-size: 17px;
+  float: right;
+  text-align: center;
+}
+
+#second-block {
+  height: 700px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.title2 {
+  font-family: serif;
+  font-size: 20px;
+  padding: 0px 0px 20px 30px;
+  color: #424242;
+}
+.corse-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.corse {
+  background-color: #e0f8e6;
+  height: 500px;
+  width: 30%;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.corse-title {
+  text-align: center;
+  font-size: 17px;
+}
+
+.corse img {
+  width: 100%;
+}
+
+.button2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.button2 a {
+  background-color: rgb(36, 241, 88, 0.5);
+  border: 2px solid rgb(36, 241, 88);
+  color: #fff;
+  line-height: 50px;
+  text-decoration: none;
+}
+.button2 a:hover {
+  background-color: #fff;
+  border-color: #f00;
+  color: #f00;
+}
+
+#third-block {
+  height: 800px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background-color: #f6cef5;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.example {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.example-left {
+  text-align: center;
+}
+
+.example-school span {
+  font-size: 20px;
+  color: #ff0040;
+}
+
+.example-text {
+  position: relative;
+  display: inline-block;
+  z-index: auto;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #fff;
+
+  width: 500px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.example-text:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #fff;
+}
+
+.example-text p {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 50px;
+  background-color: #a4a4a4;
+  font-size: 15px;
+  color: #fff;
+}
